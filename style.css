@@ -1,20 +1,67 @@
 body {
-    font-family: Arial;
-    margin: 40px;
+    margin: 0;
+    font-family: Arial, sans-serif;
     background-color: #f4f6f9;
 }
 
-nav a {
-    margin-right: 20px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #1f3c88;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
     text-decoration: none;
-    color: #1f3c88;
     font-weight: bold;
 }
 
-h1 {
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
     color: #1f3c88;
 }
 
-ul {
-    line-height: 1.8;
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 12px 25px;
+    background-color: #1f3c88;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projects-preview {
+    padding: 60px 40px;
+}
+
+.projects-preview h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1f3c88;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
 }
